@@ -3,6 +3,19 @@
 import subprocess
 import optparse
 import re
+import subprocess
+import optparse
+import re
+
+from colorama import Fore, Back, Style
+
+print(Fore.MAGENTA + "#####################################")
+print("####     MAC Address Spoofer     ####")
+print("#####################################")
+print("####          @poetsec           ####")
+print("#####################################")
+
+print(Style.RESET_ALL)
 
 def get_arguments():
     parser = optparse.OptionParser()
